@@ -12,7 +12,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import re
 import xgboost as xgb
-from sklearn.model_selection import cross_val_score, cross_validate
 from xgboost import plot_importance
 from numpy import inf
 import math
