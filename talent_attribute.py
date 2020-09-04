@@ -25,7 +25,6 @@ class TalentAttribute(object):
         self.data_config = data_config
 
     def loaddata(self):
-        test
         return pd.read_csv(self.data_config['talent_attributes_file'])
 
     @staticmethod
